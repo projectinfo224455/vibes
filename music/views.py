@@ -3,7 +3,6 @@ from .models import *
 
 
 
-
 def index(request):
 	all_playlist= Playlist.objects.all()
 	

@@ -1,3 +1,5 @@
+{% load staticfiles %}
+<link rel="stylesheet" type="text/css" href="{% static  'music/styles1.css' %}"/>
 <img src = "{{playlist.album_logo}}" >
 
 <h1>{{playlist.album_title}}</h1>
@@ -18,7 +20,7 @@
 	    </label><br>
 	{%endfor%}
 
-<input type="submit" value="Favorite">
+<input type="submit" value="favorite">
 </form>
 
 
